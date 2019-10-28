@@ -1,0 +1,1 @@
+console.log('\n=== Its alive ===n/')
