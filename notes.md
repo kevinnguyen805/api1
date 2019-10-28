@@ -14,3 +14,15 @@
      - ==> npm i -D nodemon 
 - add an `index.js` file to root folder with a console.log
 - run the API using `npm run server`
+
+
+# Basic Express server
+- install `express` as a production dependency    
+     - ==> `npm i express`
+- inside index.js
+     - const express = require('express') // equivalent to `import express from 'express'`
+     - const server = express();
+     - const port = 8000
+     - server.listen(port, () => console.log(it's alive))
+
+     - route handlers 
